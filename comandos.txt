@@ -1,0 +1,152 @@
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (main)
+$ touch main.js
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (main)
+$ touch index.html
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (main)
+$ git add .
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   comandos.txt
+        new file:   index.html
+        new file:   main.js
+
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (main)
+$ git commit -m "commit 01 de AndreaGallegos"
+[main (root-commit) 7a075de] commit 01 de AndreaGallegos
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (main)
+$ git remote add origin https://github.com/AndreaaGM/20230605-AndreaGallegos.git
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 247 bytes | 247.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AndreaaGM/20230605-AndreaGallegos.git
+ * [new branch]      main -> main
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (main)
+$ git branch feature
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (feature)
+$ mkdir hardware software seguridadInformatica
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (feature)
+$ cd hardware
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos/hardware (feature)
+$ touch resumen.txt
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos/hardware (feature)
+$ cd ..
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (feature)
+$ cd software
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos/software (feature)
+$ touch resumen.txt
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos/software (feature)
+$ cd ..
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (feature)
+$ cd seguridadInformatica
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos/seguridadInformatica (feature)
+$ touch resumen.txt
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos/seguridadInformatica (feature)
+$ git add .
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos/seguridadInformatica (feature)
+$ git status
+On branch feature
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   resumen.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../hardware/
+        ../software/
+
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos/seguridadInformatica (feature)
+$ cd ..
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (feature)
+$ git add .
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (feature)
+$ git status
+On branch feature
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   hardware/resumen.txt
+        new file:   seguridadInformatica/resumen.txt
+        new file:   software/resumen.txt
+
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (feature)
+$ git commit -m "commit 02 de AndreaGallegos"
+[feature 7f5bb6d] commit 02 de AndreaGallegos
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hardware/resumen.txt
+ create mode 100644 seguridadInformatica/resumen.txt
+ create mode 100644 software/resumen.txt
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (feature)
+$ git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 382 bytes | 382.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/AndreaaGM/20230605-AndreaGallegos/pull/new/feature
+remote:
+To https://github.com/AndreaaGM/20230605-AndreaGallegos.git
+ * [new branch]      feature -> feature
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (feature)
+$ git checkout main
+Switched to branch 'main'
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (main)
+$ git add .
+
+DELL@DESKTOP-VAQQGCR MINGW64 ~/Desktop/CTD/DH/20230605-AndreaGallegos (main)
+$ git commit -m "commit 03 de AndreaGaallegos"
+[main 1b10793] commit 03 de AndreaGaallegos
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rename index.html => resumehardware.txt (100%)
+ rename main.js => resumesoftware.txt (100%)
